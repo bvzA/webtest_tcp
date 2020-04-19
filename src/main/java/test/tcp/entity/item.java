@@ -2,6 +2,7 @@ package test.tcp.entity;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,6 +19,8 @@ public class Item {
     private Integer id;
 
     private String title;
+
+    @Column(name = "description")
     private String describe;
     private Date timestamp;
 
