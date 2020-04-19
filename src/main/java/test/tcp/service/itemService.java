@@ -1,5 +1,5 @@
 package test.tcp.service;
 
-public class itemService {
+public class ItemService {
 
 }
