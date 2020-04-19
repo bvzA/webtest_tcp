@@ -22,4 +22,8 @@ public class ItemService {
         // process ...
         return itemRepository.findAll();
     }
+
+	public Item add(Item item) {
+        return itemRepository.save(item);
+	}
 }
